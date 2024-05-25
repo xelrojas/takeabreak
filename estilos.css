@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+
+.main-image{
+    background: url("imagenes/image.png");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh; /* vh= viewport height: Altura minima que debe tener el elemento. Hace que se acomode a la altura de la visualización de la ventana.*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;   /* 1rem = 16px */
+}
+
+.main-image h1{
+    font-size: 65px;
+    margin-bottom: 16px;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+
+.main-image p{
+    font-size: 25px;
+    margin-bottom: 3rem;
+}
+
+.main-image button{
+    background: none;
+    color: #fff;
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.button-break:hover{
+    background-color:#0000004d ;
+}
+
